@@ -1,0 +1,21 @@
+.layout {
+  display: flex;
+  background: linear-gradient(180deg, #0b1220, #0e1627);
+  height: calc(100vh - 64px);
+}
+
+.content {
+  flex: 1;
+  padding: 24px;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+
+  app-sidebar {
+    width: 100%;
+  }
+}
